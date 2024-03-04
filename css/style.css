@@ -61,3 +61,10 @@ body{
     font-size: 14px;
     margin: 14px 0px;
 }
+
+.sneakers-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: ;
+}
