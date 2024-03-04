@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#f4ffe7;
+}
+.content{
+    width: 1080px;
+    min-height: 100vh;
+    background: white;
+    margin: 85px aut0;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 60px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.header__nav-list{
+    display: flex;
+    list-style: none;
+    column-gap: 32px;
+}
+.header__nav-list li{
+    display: flex;
+    align-items: center;
+}
